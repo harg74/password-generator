@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Karla";
+    src: url("fonts/Karla-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: "Inter";
+    src: url("fonts/Inter-VariableFont_wght.ttf");
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #1C1C1C ;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px #D1D5DB;
+}
+
+#main-screen{
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-header{
+    color: white;
+    font-family: "Karla", sans-serif;
+}
+
+h1 span{
+    color: #4ADF86;
+    font-family: "Karla", sans-serif;
+}
+
+#main-sub-header{
+    color: #D5D4D8;
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight:300
+}
+
+#btn-pass-gen{
+    width: 191px;
+    height: 42px;
+    background: #7C3AED;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 4px solid #10B981;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    z-index: 1;
+}
+
+#btn-pass-gen:hover{
+    background-color:#10B981;
+    cursor: pointer;
+}
+
+#btn-pass-gen:active{
+    transform:scale(1.01);
+ }
+
+hr{
+    color: #2F3E53;
+    margin-bottom: 35px;
+}
+
+#main-btn-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    background: #273549;
+    border-radius: 6px;
+    border: 0px;
+    height: 39px;
+    width: 211px;
+    color: #55F991;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.input:hover{
+    border: 3px solid #10B981;
+    box-shadow: 1px 1px 0px #111827;
+}
+
+#parameters{
+    height: 80px;
+}
+
+#parameters-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+img{
+    height: 23px;
+    width: 20px;
+    margin-left: 15px;
+    margin-bottom: 35px;
+}
+
+img:active{
+    transform:scale(1.1);
+ }
+
+#password-gen-refresh{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
